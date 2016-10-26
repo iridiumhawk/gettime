@@ -4,9 +4,9 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
-public class Activity {
-    private int id;
-    private int userId; //User
+public class Activity extends BaseEntity{
+//    private int id;
+    private Long userId; //User
     private Map<LocalDateTime,LocalDateTime> timeFromBeginToEnd;
     private List<ActivityCategory> categories;
     private String description;

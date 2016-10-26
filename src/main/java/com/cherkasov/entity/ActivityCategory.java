@@ -1,8 +1,11 @@
 package com.cherkasov.entity;
 
-public class ActivityCategory {
+public class ActivityCategory extends BaseEntity{
+    private Long userId;
     private String description;
-    private int depthLevel;
-    private int icon;
+    private Long parentCategory;
+    //depth level?
+//    private int icon;
+
 
 }
