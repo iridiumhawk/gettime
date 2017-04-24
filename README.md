@@ -1,2 +1,5 @@
 Project by Alexey Cherkasov
-CRUD application made for demostration of using technologies
+
+Application for tracking time
+
+Frozen.
